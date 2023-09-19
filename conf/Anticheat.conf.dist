@@ -100,7 +100,7 @@ Anticheat.WriteLog = 0
 #       Description: Set the time between each report save in seconds
 #       Default:    60 - (seconds)
 
-Anticheat.SaveReportsTime = 60
+Anticheat.SaveReportsTime = 90000
 
 #     Anticheat.Detect
 #       Description: It represents which detections are enabled (ClimbHack disabled by default).
