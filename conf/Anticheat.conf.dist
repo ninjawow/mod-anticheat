@@ -108,20 +108,20 @@ Anticheat.SaveReportsTime = 60
 #                   0 - (Disabled)
 
 Anticheat.DetectFlyHack = 1
-Anticheat.DetectWaterWalkHack = 1
+Anticheat.DetectWaterWalkHack = 0
 Anticheat.DetectJumpHack = 1
-Anticheat.DetectTelePlaneHack = 1
+Anticheat.DetectTelePlaneHack = 0
 Anticheat.DetectSpeedHack = 1
-Anticheat.DetectClimbHack = 1
-Anticheat.DetectTelePortHack = 1
-Anticheat.IgnoreControlHack = 1
-Anticheat.DetectZaxisHack =1
-Anticheat.AntiSwimHack = 1
-Anticheat.DetectGravityHack = 1
-Anticheat.AntiKnockBack = 1
-Anticheat.NoFallDamage = 1
-Anticheat.DetectBGStartHack = 1
-Anticheat.OpAckOrderHack = 1
+Anticheat.DetectClimbHack = 0
+Anticheat.DetectTelePortHack = 0
+Anticheat.IgnoreControlHack = 0
+Anticheat.DetectZaxisHack = 0
+Anticheat.AntiSwimHack = 0
+Anticheat.DetectGravityHack = 0
+Anticheat.AntiKnockBack = 0
+Anticheat.NoFallDamage = 0
+Anticheat.DetectBGStartHack = 0
+Anticheat.OpAckOrderHack = 0
 
 #     Anticheat.StricterFlyHackCheck
 #       Description: Checks moveflag ascending (may give false positives)
@@ -183,7 +183,7 @@ Anticheat.ReportsForBan = 70
 #       Default:    70 - (Kick at 70 auto reports)
 #
 
-Anticheat.JailPlayer = 0
+Anticheat.JailPlayer = 1
 Anticheat.ReportsForJail = 70
 
 #     Anticheat.AnnounceKick
@@ -195,7 +195,7 @@ Anticheat.ReportsForJail = 70
 
 Anticheat.AnnounceKick = 0
 Anticheat.AnnounceBan = 0
-Anticheat.AnnounceJail = 0
+Anticheat.AnnounceJail = 1
 
 #
 ###################################################################################################
